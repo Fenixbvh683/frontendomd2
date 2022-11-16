@@ -1,0 +1,92 @@
+
+body{
+
+    background-color: rgb(238, 238, 210);
+    
+}
+.letranegra{
+
+    fiter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1)
+    
+    }
+
+    .banner{
+        
+        background-image: url(../img/banner5.png);
+        width: auto;
+        height: 20rem;
+        position: relative;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -moz-background-size: cover;
+        -msn-background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nombre{
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: calc(3em + 1vw);
+        padding: 0.25em;
+        margin: 0.25em;
+        text-align: center;
+    }
+    .titulo{
+        color: aqua;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: calc(2em + 1vw);
+        padding: 0.10em;
+        margin: 0.10em;
+        text-align: center;
+    }
+
+    .profile-image{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        z-index: 1;
+        
+    }
+
+
+
+    .mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 50px;
+    border-color: #0a66c2;
+}
+.mt-card#first-card{
+    padding: 0;
+}
+
+div#profiles-backgraund{
+display: flex;
+z-index: 1;
+
+}
+div#profiles-backgraund img{
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
+
+
+}
+div#info-actions {
+    display: flex;
+}
+/*.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 125);
+    
+}*/
