@@ -52,6 +52,13 @@ body{
         
     }
 
+    footer.bg-black{
+        width: 100%;
+        height: 9%;
+        padding: 0.5rem;
+        position: fixed;
+        bottom: 0;
+    }
 
 
     .mat-card{
@@ -60,33 +67,6 @@ body{
     padding: 50px;
     border-color: #0a66c2;
 }
-.mt-card#first-card{
-    padding: 0;
-}
-
-div#profiles-backgraund{
-display: flex;
-z-index: 1;
-
-}
-div#profiles-backgraund img{
-    width: 100%;
-    border-radius: 32px 32px 0 0;
-}
 
 
-}
-div#info-actions {
-    display: flex;
-}
-/*.card{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 125);
-    
-}*/
+
