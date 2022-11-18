@@ -27,7 +27,7 @@ body{
     }
 
     .nombre{
-        color: aliceblue;
+        color: rgb(245, 245, 245);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: calc(3em + 1vw);
         padding: 0.25em;
@@ -189,4 +189,11 @@ body{
         height: 50px;
         margin-top: 10px;
         z-index: 1;
+}
+
+.infofoot{
+    color:aliceblue;
+    font-style: oblique;
+    text-align: center;
+    margin: ;
 }
