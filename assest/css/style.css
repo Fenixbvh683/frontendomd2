@@ -168,3 +168,25 @@ body{
     -msn-background-size: cover;
     background-repeat: no-repeat;
 }
+
+.logocompu{
+    border-radius: none;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        z-index: 1;
+}
+.logocelu{
+    border-radius: none;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        z-index: 1;
+}
+.logofullstack{
+    border-radius: none;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        z-index: 1;
+}
