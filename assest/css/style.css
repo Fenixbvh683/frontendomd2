@@ -14,7 +14,7 @@ body{
 
     .banner{
         
-        background-image: url(../img/banner5.png);
+        background-image: url(../img/codigonegro.png);
         width: auto;
         height: 20rem;
         position: relative;
@@ -96,13 +96,13 @@ body{
 .sobremi{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    color: aliceblue;
+    color: rgb(11, 12, 12);
 }
 
 .prese{
-    background-image: url(../img/oscuro.png);
+    background-image: url(../img/codigoblan.png);
     width: auto;
-    height: 20rem;
+    height: auto;
     position: relative;
     background-size: cover;
     -webkit-background-size: cover;
@@ -113,9 +113,9 @@ body{
 }
 
 .studi{
-    background-image: url(../img/luces.png);
+    background-image: url(../img/laber.png);
     width: auto;
-    height: 30rem;
+    height: auto;
     position: relative;
     background-size: cover;
     -webkit-background-size: cover;
@@ -131,9 +131,9 @@ body{
 }
 
 .proye{
-    background-image: url(../img/tecno.png);
+    background-image: url(../img/binary.png);
     width: auto;
-    height: 30rem;
+    height: auto;
     position: relative;
     background-size: cover;
     -webkit-background-size: cover;
@@ -143,6 +143,28 @@ body{
     background-repeat: no-repeat;
 }
 
-.trans{
-    color: transparent;
+.card-body{
+   background-image: url(../img/codigoblan.png);
+   width: auto;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.expe{
+    background-image: url(../img/tecno.png);
+    width: auto;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+    background-repeat: no-repeat;
 }
