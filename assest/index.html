@@ -1,69 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrontEnd Modulo 2</title>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FrontEnd Modulo 2</title>
 
-    <!--Fuentes only Fontawesome-->
-    <script src="https://kit.fontawesome.com/73dba2e5fe.js" crossorigin="anonymous"></script>
+      <!--Fuentes only Fontawesome-->
+      <script src="https://kit.fontawesome.com/73dba2e5fe.js" crossorigin="anonymous"></script>
 
-    <!-- CSS only Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <!-- CSS only Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <!--Hoja de estilo de CSS-->
-    <Link rel="stylesheet" href="../assest/css/style.css">
-
-
-</head>
+     <!--Hoja de estilo de CSS-->
+      <Link rel="stylesheet" href="../assest/css/style.css">
+    </head>
 <body>
  
 <Section><!--Seccion Navbar-->
  
-    <div class="container-fluid">
-        <div class="row">
-
             <!--Inicio Navbar-->
-
-    <nav class="navbar navbar-expand-lg bg-color">
-            <div class="container-fluid">
-        
-                    <a class="navbar-brand" href="#"><img src="../assest/img/logoap2.png" alt="Logo Argentina Programa" class="w-110 letranegra"></a>
+        <nav class="navbar navbar-expand-lg bg-color">
+          <div class="container-fluid">
+            
+              <a class="navbar-brand" href="#"><img src="../assest/img/logoap2.png" alt="Logo Argentina Programa" class="w-110 letranegra"></a>
           
                     <!--redes sociales -->
-                <ul class="list-group list-group-horizontal">
+              <ul class="list-group list-group-horizontal">
            
-                    <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
-                    <li class="list-group-item"><a href="https://github.com/Fenixbvh683" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a></li>
-                    <li class="list-group-item"><i class="fa-brands fa-facebook fa-2x" target="_blank"></i></li>
-                    <li class="list-group-item">
-                
-                
-                        <!-- Buton que envia al login -->
-                
-                        <a href="assets/login.html"><i class="fa-sharp fa-solid fa-bridge-lock fa-2x"></i></a>
-                                      
-                    </li>
-                </ul>
-        </div>
-    </nav><!--Fin Navbar-->
-</div>
+                <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+                <li class="list-group-item"><a href="https://github.com/Fenixbvh683" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a></li>
+                <li class="list-group-item"><i class="fa-brands fa-facebook fa-2x" target="_blank"></i></li>
+                    <!-- Buton que envia al login -->
 
-</div>
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!--<a href="assets/login.html"><i class="fa-sharp fa-solid fa-bridge-lock fa-2x"></i></a>-->
+
+<button type="button" class="list-group-item" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-sharp fa-solid fa-bridge-lock fa-2x"></i></button>
+              </ul>
+            </div>
+        </nav><!--Fin Navbar-->
+     
 </Section><!--Seccion Navbar-->
 
 
 <section><!--Sección Banner Inicio-->
 
-    <div class="container-fluid banner">
-        <div class="row p-5">
-          <div class="col-xs-12">
+    <div class="container-fluid text-center banner">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-11">
             <h1 class="nombre"><i><strong>Jorge Anibal Lesme Aquino</strong></i></h1>
             <h2 class="titulo"><i><strong> Desarrollador FullStack</strong></i></h2>
           </div>
 
-           <div>
+           <div class="col-xs-12 col-md-6 col-lg-1">
             <ul class="list-group list-group-horizontal">
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
@@ -75,70 +69,85 @@
 
 </section><!--Sección Banner Final-->
 
-          <div>
-            <button type="button" class="btn btn-primary">Tengo Interes en</button>
-            <button type="button" class="btn btn-light">Añadir Sección</button>
-            <button type="button" class="btn btn-light">Más</button>
-          </div>
-        
+  <div class="container-fluid">
+    <div clas="row">
+     <div>
+       <button type="button" class="btn btn-primary">Tengo Interes en</button>
+       <button type="button" class="btn btn-light">Añadir Sección</button>
+       <button type="button" class="btn btn-light">Más</button>
+     </div>
+    </div>
+  </div>
 
 <section><!--Sección Presentacion Inicio-->
                                
-                        <div class="container-fluid">
-                          <div class="row">
-                            <div class="col-xs-12 col-md-6 col-lg-1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-lg-1">
 
-                            </div>
-                            <div class="col-xs-12 col-md-6 col-lg-10">
-                                <h1 class="titulo1">Presentación</h1>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-10">
+         <h1 class="titulo1">Presentación</h1>
                               
-                            </div>
-                            <div class="col-xs-12 col-md-6 col-lg-1">
-                              <div class="list-group list-group-horizontal">
-                                <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
-                                <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
-                                <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-    <div class="container- text-center card mat-card prese">
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-2">
-            <div id="info-img"><img class="profile-image" src="../assest/img/JL3.png"></div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-9">
-           <h3 class="sobremi"><i><strong>Gracias a los conocimientos adquiridos, me enfoco el la realizacion de su proyecto y sacando lo mejor le ofrecemos un trabajo completo serio y con excelencia, para que pueda tener una mejor aceptacion con las personas que desee captar su atencion. Para que de esta manera no solo sea algo prolijo y estetico sino que pueda captar mas clientes para su empresa.</strong></i></he>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-1">
-                        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
-                        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
-                        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-                        
-          </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-1">
+        <div class="list-group list-group-horizontal">
+          <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
+          <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
+          <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center card mat-card prese">
+    <div class="row">
+     <div class="col-xs-12 col-md-6 col-lg-2">
+      <div id="info-img"><img class="profile-image" src="../assest/img/JL3.png">
+      </div>
+     </div>
+          <div class="col-xs-12 col-md-6 col-lg-9">
+           <h3 class="sobremi"><i><strong>Gracias a los conocimientos adquiridos, me enfoco el la realizacion 
+            de su proyecto y sacando lo mejor le ofrecemos un trabajo completo serio y con excelencia, para que 
+            pueda tener una mejor aceptacion con las personas que desee captar su atencion. Para que de esta manera 
+            no solo sea algo prolijo y estetico sino que pueda captar mas clientes para su empresa.</strong></i>
+          </h3>
+          </div>
+            <div class="col-xs-12 col-md-6 col-lg-1">
+              <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a>
+              </div>
+              <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a>
+              </div>
+              <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a>
+              </div>
+            </div>
+    </div>
+  </div>
  </section><!--Sección Presentacion Final-->
  
  <section><!--Sección Estudios Inicio-->
 
   <div class="container-fluid">
     <div class="row">
-    <div class="col-11">
-    <h1 class="titulo1">Estudios Realizados</h1>
+      <div class="col-xs-12 col-md-6 col-lg-11">
+        <h1 class="titulo1">Estudios Realizados</h1>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-1 align-items-end list-group list-group-horizontal">
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a>
+        </div>
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a>
+        </div>
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a>
+      </div>
+      </div>
     </div>
-    <div class="col-1 align-items-end list-group list-group-horizontal">
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-    </div>
-    </div>
-    </div>
+  </div>
 
-    <div class="container- text-center card mat-card studi">
+  <div class="container-fluid text-center card mat-card studi">
     <div class="row align-items-start">
       <div class="col-3">
-        <div id="info-img"><img class="logoestudios" src="../assest/img/raulpeña.png"></div>
+        <div id="info-img"><img class="logoestudios" src="../assest/img/raulpeña.png">
+        </div>
       </div>
       <div class="col-8">
         <h4 class="institu"><i><strong>Colegio Nacional de Enseñanza Media Diversificada "Dr. Raul Peña"</strong></i></h4>
@@ -149,7 +158,7 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
+      </div>
     </div>
     <div class="row align-items-center">
       <div class="col-3">
@@ -164,7 +173,7 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
+      </div>
     </div>
     <div class="row align-items-end">
       <div class="col-xs-12 col-md-6 col-lg-3">
@@ -179,7 +188,7 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
+      </div>
     </div>
     <div class="row align-items-end">
       <div class="col-3">
@@ -194,9 +203,9 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
       </div>
     </div>
+  </div>
 
  </section><!--Sección Estudios Final-->
 
@@ -204,18 +213,18 @@
   
   <div class="container-fluid">
     <div class="row">
-    <div class="col-11">
-    <h1 class="titulo1">Experiencias Laborales</h1>
+      <div class="col-11">
+        <h1 class="titulo1">Experiencias Laborales</h1>
+      </div>
+      <div class="col-1 align-items-end list-group list-group-horizontal">
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
+      </div>
     </div>
-    <div class="col-1 align-items-end list-group list-group-horizontal">
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-    </div>
-    </div>
-    </div>
+  </div>
 
-    <div class="container- text-center card mat-card expe">
+  <div class="container-fluid text-center card mat-card expe">
     <div class="row align-items-start">
       <div class="col-3">
         <div id="info-img"><img class="logocompu" src="../assest/img/repacompu.png"></div>
@@ -229,7 +238,7 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
+      </div>
     </div>
     <div class="row align-items-center">
       <div class="col-3">
@@ -244,7 +253,7 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
+      </div>
     </div>
     <div class="row align-items-end">
       <div class="col-3">
@@ -259,31 +268,30 @@
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
         <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-        </div>
+      </div>
     </div>
-     </div>
+  </div>
   
-
  </section><!--Sección Experiencia Laboral Final-->
 
  <section><!--Sección Estudios Inicio-->
 
   <div class="container-fluid">
     <div class="row">
-    <div class="col-11">
-    <h1 class="titulo1">Proyectos Realizados</h1>
+      <div class="col-11">
+        <h1 class="titulo1">Proyectos Realizados</h1>
+      </div>
+      <div class="col-1 align-items-end list-group list-group-horizontal">
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
+        <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
+      </div>
     </div>
-    <div class="col-1 align-items-end list-group list-group-horizontal">
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
-    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-    </div>
-    </div>
-    </div>
+  </div>
 
-    <div class="container- text-center card mat-card proye">
+  <div class="container-fluid text-center card mat-card proye">
     <div class="row align-items-start">
-      <div class="col">
+      <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card" style="width: 18rem;">
           <img src="../assest/img/azul.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -295,12 +303,12 @@
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-              </div>
+            </div>
 
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card" style="width: 18rem;">
           <img src="../assest/img/rojo.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -312,12 +320,12 @@
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-              </div>
+            </div>
 
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card" style="width: 18rem;">
           <img src="../assest/img/azul.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -329,19 +337,18 @@
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-plus"></i></a></div>
               <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-trash"></i></a></div>
-              </div>
+            </div>
 
           </div>
         </div>
       </div>
     </div>
-    
   </div>
 
  </section><!--Sección Estudios Final-->
 <div clss="container-fluid">
 
-  <div class="row p-2 pb-2 bg-black text-white">
+<div class="row p-2 pb-2 bg-black text-white">
     <!--
     <div class="col-xs-12 col-md6 col-lg-3">
       <p class="h3">MANIDELA</p>
@@ -382,14 +389,45 @@
       <div class="mb-2">
         <a class="text-secondary text-decoration-none" href="#">Telefono: +5491160193054</a>
       </div>
-    </div>-->
-<div class="col-xs-12 pt-2">
-  <p class="text-white text-center">MANIDELA Company - Todos los Derechos Reservados - 2022</p>
-</div>
+    </div>
+  -->
+  <div class="col-xs-12 pt-2">
+    <p class="text-white text-center">MANIDELA Company - Todos los Derechos Reservados - 2022</p>
   </div>
-
+</div>
 </div>
      
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de Secion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">No divulgaremos su informacion.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
